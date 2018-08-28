@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.j
 x-kinRank: "8"
 x-alexaRank: "42"
 tags: Legacy
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/legacy/master/_listings/ebay/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Ebay Get Item Get Item By Legacy
-  x-api-slug: ebay
+- name: Ebay - Get Item Get Item By Legacy
+  x-api-slug: itemget-item-by-legacy-id-get
   description: This call is a bridge between the eBay legacy APIs, such as Trading,
     Shopping, and Finding and the eBay Buy APIs. There are differences between how
     legacy APIs and RESTful APIs return the identifier of an &quot;item&quot;. There
@@ -42,26 +42,20 @@ apis:
     Restrictions For a list of supported sites and other restrictions, see API Restrictions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
   humanURL: https://ebay.com
-  baseURL: https://api.ebay.com////item/get_item_by_legacy_id
-  tags: Auctions,Item, , Item, Legacy
+  baseURL: https://api.ebay.com//
+  tags: Commerce, Stack, internet, Marketplace, Technology, API Provider, Auctions,
+    Profiles, General Data, Relative Data, Service API, Pedestal, Historical Data
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/legacy/master/_listings/ebay/itemget-item-by-legacy-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/legacy/master/_listings/ebay/itemget-item-by-legacy-id-get-openapi.md
-- name: Ebay
-  x-api-slug: ebay
-  description: Buy and sell electronics, cars, fashion apparel, collectibles, sporting
-    goods, digital cameras, baby items, coupons, and everything else on eBay, the
-    worlds online marketplace
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg
-  humanURL: https://ebay.com
-  baseURL: https://api.ebay.com//
-  tags: Legacy
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/legacy/master/_listings/ebay/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://easycron.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://ebay.stack.network
 - type: x-blog
   url: https://go.developer.ebay.com/dev-program-blog
 - type: x-crunchbase
